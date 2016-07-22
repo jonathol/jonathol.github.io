@@ -113,6 +113,7 @@ nav ul li:first-child {
 /*Footer*/
 footer ul {
   display: flex;
+  margin-left: 20px;
 }
 
 footer ul li {
