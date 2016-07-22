@@ -57,6 +57,10 @@ header {
   align-items: center;
 }
 
+.header-container {
+  margin-bottom: 20px;
+}
+
 .header-title-container {
   display: flex;
 }
