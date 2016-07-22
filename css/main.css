@@ -70,6 +70,7 @@ header {
 .header-title-container h1 {
   font-size: 40px;
   margin-left: 75px;
+  padding-right: 10px;
 }
 
 .header-title-container h2 {
