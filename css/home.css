@@ -5,9 +5,14 @@
 .blurb h1 {
   font-size: 30px;
   color: red;
+  margin-bottom: 20px;
 }
 
 .blurb p {
   font-size: 24px;
   color: grey;
+}
+
+.blurb p a {
+  text-decoration: underline;
 }
