@@ -91,25 +91,18 @@ nav ul {
   display: flex;
 }
 
-nav ul li {
+nav ul li a {
   margin-right: 20px;
   padding-left: 19px;
   border-left: 1px solid red;
-  color: grey;  
-}
-
-nav ul li:first-child {
-  padding-left: 0;
-  border: 0;
-}
-
-nav ul li:hover {
-  cursor: pointer;
-}
-
-nav ul li a {
+  color: grey;
   padding-top: 14.5px;
   padding-bottom: 14.5px;
+}
+
+.first {
+  padding-left: 20px;
+  border: 0;
 }
 
 /*Container*/
