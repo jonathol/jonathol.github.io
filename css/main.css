@@ -60,7 +60,7 @@ header {
   display: flex;
 }
 
-h1 {
+header h1 {
   font-size: 60px;
   margin-left: 200px;
   margin-right: 10px;
