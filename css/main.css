@@ -77,12 +77,14 @@ header {
   font-size: 40px;
   margin-left: 20px;
   padding-right: 10px;
+  border-right: 1px solid red;
 }
 
 .header-title-container h2 {
   box-sizing: border-box;
   font-size: 16px;
   padding-left: 10px;
+
   border-left: 1px solid red;
   color: grey;
 }
