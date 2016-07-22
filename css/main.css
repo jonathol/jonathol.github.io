@@ -65,12 +65,12 @@ header {
   font-size: 40px;
   margin: 10px
   margin-left: 75px;
-  
 }
 
 .header-title-container h2 {
   font-size: 30px;
   margin: 10px;
   padding-left: 10px;
-  border-left: 1px solid grey;
+  border-left: 1px solid red;
+  color: grey;
 }
