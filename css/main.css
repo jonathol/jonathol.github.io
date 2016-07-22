@@ -95,20 +95,21 @@ nav ul li {
   margin-right: 20px;
   padding-left: 19px;
   border-left: 1px solid red;
-  color: grey;
-  padding-top: 14.5px;
-  padding-bottom: 14.5px;
+  color: grey;  
 }
 
 nav ul li:first-child {
-  padding-top: 14.5px;
-  padding-bottom: 14.5px;
   padding-left: 0;
   border: 0;
 }
 
 nav ul li:hover {
   cursor: pointer;
+}
+
+nav ul li a {
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
 }
 
 /*Container*/
