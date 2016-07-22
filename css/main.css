@@ -58,14 +58,14 @@ header {
 
 .header-title-container {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .header-title-container h1 {
   font-size: 40px;
   margin: 10px
   margin-left: 75px;
-  border-right: 1px solid grey;
+  
 }
 
 .header-title-container h2 {
