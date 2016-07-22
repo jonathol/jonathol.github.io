@@ -107,6 +107,10 @@ nav ul li:first-child {
   border: 0;
 }
 
+nav ul li:hover {
+  cursor: pointer;
+}
+
 /*Container*/
 .container {
   margin: 20px;
