@@ -83,7 +83,7 @@ header {
 .header-title-container h2 {
   box-sizing: border-box;
   font-size: 16px;
-  padding-left: 10px;  
+  padding-left: 10px;
   color: grey;
 }
 
@@ -95,6 +95,7 @@ nav ul li {
   margin-right: 20px;
   padding-left: 19px;
   border-left: 1px solid red;
+  color: grey;
 }
 
 nav ul li:first-child {
