@@ -33,7 +33,7 @@ input[type="email"],
 input[type="text"],
 input[type="submit"],
 textarea,
-button {  
+button {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -41,4 +41,9 @@ button {
 button,
 input[type="submit"] {
   cursor: pointer;
+}
+
+/*Styling*/
+body {
+  font-family: 'Aldrich', sans-serif;
 }
