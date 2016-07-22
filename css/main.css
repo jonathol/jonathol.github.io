@@ -47,3 +47,8 @@ input[type="submit"] {
 body {
   font-family: 'Aldrich', sans-serif;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
