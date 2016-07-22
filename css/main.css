@@ -67,6 +67,7 @@ header {
 }
 
 .header-title-container h2 {
+  box-sizing: border-box;
   font-size: 30px;
   padding-left: 10px;
   border-left: 1px solid red;
@@ -83,7 +84,7 @@ nav ul li {
   border-left: 1px solid red;
 }
 
-nav ul:first-child {
+nav ul li:first-child {
   padding: 0;
   border: 0;
 }
