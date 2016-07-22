@@ -104,3 +104,7 @@ nav ul li:first-child {
 }
 
 /*Container*/
+.container {
+  margin: 20px;
+  border-bottom: 1px solid grey;
+}
