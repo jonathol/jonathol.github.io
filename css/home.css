@@ -1,3 +1,13 @@
 .blurb {
   margin: 20px;
 }
+
+.blurb h1 {
+  font-size: 30px;
+  color: red;
+}
+
+.blurb p {
+  font-size: 24px;
+  color: grey;
+}
