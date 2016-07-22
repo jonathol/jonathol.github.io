@@ -44,10 +44,15 @@ input[type="submit"] {
 }
 
 /*Styling*/
+
+/*Body*/
+
 body {
   font-family: 'Aldrich', sans-serif;
   background-color: ghostwhite;
 }
+
+/*Header*/
 
 header {
 
@@ -60,7 +65,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .header-title-container {
@@ -96,3 +101,5 @@ nav ul li:first-child {
   padding: 0;
   border: 0;
 }
+
+/*Container*/
