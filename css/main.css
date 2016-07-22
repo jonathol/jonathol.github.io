@@ -46,13 +46,28 @@ input[type="submit"] {
 /*Styling*/
 body {
   font-family: 'Aldrich', sans-serif;
+  background-color: ghostwhite;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  margin: 20px;
+  border-bottom: 1px solid grey;
 }
 
 .header-title-container {
   display: flex;
+}
+
+h1 {
+  font-size: 60px;
+  margin-left: 200px;
+  margin-right: 10px;
+}
+
+header h2 {
+  font-size: 40px;
+  padding-left: 10px;
+  border-right: 1px solid grey;
 }
