@@ -118,4 +118,11 @@ footer ul {
 
 footer ul li {
   margin-left: 20px;
+  color: grey
+}
+
+nav ul li:nth-child(2) {
+  margin: 0;
+  padding-left: 19;
+  border-left: 1px solid red;
 }
