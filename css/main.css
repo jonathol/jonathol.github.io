@@ -61,15 +61,16 @@ header {
   align-items: flex-end;
 }
 
-header h1 {
+.header-title-container h1 {
   font-size: 40px;
   margin: 10px
   margin-left: 75px;
   border-right: 1px solid grey;
 }
 
-header h2 {
+.header-title-container h2 {
   font-size: 30px;
   margin: 10px;
   padding-left: 10px;
+  border-left: 1px solid grey;
 }
