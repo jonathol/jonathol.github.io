@@ -63,13 +63,11 @@ header {
 
 .header-title-container h1 {
   font-size: 40px;
-  margin: 10px
   margin-left: 75px;
 }
 
 .header-title-container h2 {
   font-size: 30px;
-  margin: 10px;
   padding-left: 10px;
   border-left: 1px solid red;
   color: grey;
@@ -81,6 +79,11 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
-  padding-right: 9px;
+  padding-left: 9px;
   border-left: 1px solid red;
+}
+
+nav ul:first-child {
+  padding: 0;
+  border: 0;
 }
