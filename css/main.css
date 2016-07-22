@@ -70,5 +70,6 @@ header h1 {
 header h2 {
   font-size: 40px;
   margin: 10px;
+  padding-left: 10px;
   border-left: 1px solid grey;
 }
