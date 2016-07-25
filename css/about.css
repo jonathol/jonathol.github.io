@@ -19,3 +19,7 @@
   color: grey;
   margin-bottom: 20px;
 }
+
+.about img {
+  width: 200px;
+}
