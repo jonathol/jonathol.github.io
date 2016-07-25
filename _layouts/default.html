@@ -2,41 +2,60 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta charset="utf-8" />
 			<!-- link to main stylesheet -->
-			<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="stylesheet" type="text/css" href="/css/home.css">
-			<link rel="stylesheet" type="text/css" href="/css/about.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+			<link rel="stylesheet" href="assets/css/main.css" />
+			<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+			<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
 		</head>
-		<body>
-			<header>
-				<div class="header-container">
-					<div class="header-title-container">
-						<h1>Jonathon Lin</h1>
-						<h2>Web Developer</h2>
-					</div>
-					<nav>
-						<ul>
-							<li><a href="/" class="first">Home</a></li>
-							<li><a href="/about">About</a></li>
-							<li><a href="/projects">Projects</a></li>
-							<li><a href="/blog">Blog</a></li>
-						</ul>
-					</nav>
+		<body class="landing">
+
+			<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="/">Jonathon Lin</a></h1>
+					<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="/" class="first">Home</a></li>
+											<li><a href="/projects">Projects</a></li>
+											<li><a href="/blog">Blog</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+				</header>
+				<div class="container">
+
+				{{ content }}
+
 				</div>
-			</header>
-			<div class="container">
-
-			{{ content }}
-
+				<!-- /.container -->
+				<footer id="footer">
+	    		<ul class=icons>
+	        		<li><a href="mailto:jonathonlin93@yahoo.com">email</a></li>
+	        		<li><a href="https://github.com/jonathol">github.com/jonathol</a></li>
+					</ul>
+				</footer>
 			</div>
-			<!-- /.container -->
-			<footer>
-    		<ul>
-        		<li><a href="mailto:jonathonlin93@yahoo.com">email</a></li>
-        		<li><a href="https://github.com/jonathol">github.com/jonathol</a></li>
-				</ul>
-			</footer>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
 		</body>
 	</html>
