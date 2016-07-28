@@ -7,10 +7,10 @@ title: Blog
 	<div class="inner">
 		<h2>{{ page.title }}</h2>
 		<p>
-			A collection of post where I reveal my everyday shenanigans ad a web developer.
+			A collection of post where I reveal my everyday shenanigans as a web developer.
 		</p>
 	</div>
-	<a href="#one" class="more scrolly">Learn More</a>
+	<a href="#three" class="more scrolly">Learn More</a>
 </section>
 <section id="three" class="wrapper style3 special">
 	<div class="inner">
@@ -19,6 +19,6 @@ title: Blog
 			{% for post in site.posts %}
 				<li><h3>{{ post.date | date_to_string }}</h3> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 			{% endfor %}
-		</ul>		
+		</ul>
 	</div>
 </section>
