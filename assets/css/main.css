@@ -2794,7 +2794,7 @@
 
 			}
 
-		.wrapper .style1 .inner .major div p img {
+		.wrapper.style1 .inner .major div p img {
 			max-width: 100%;
 	    height: auto;
 	    width: auto\9; /* ie8 */
