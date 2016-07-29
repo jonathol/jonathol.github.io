@@ -2,14 +2,18 @@
 layout: default
 title: Blog
 ---
-<section class="wrapper style3 special">
+
+<section id="banner">
 	<div class="inner">
-		<header class="major" >
-			<h2>{{ page.title }}</h2>
-			<p>
-				A collection of post where I reveal my everyday shenanigans.
-			</p>
-		</header>
+		<h2>{{ page.title }}</h2>
+		<p>
+			A collection of post where I reveal my everyday shenanigans as a web developer.
+		</p>
+	</div>
+	<a href="#three" class="more scrolly">Let's Begin</a>
+</section>
+<section id="three" class="wrapper style3 special">
+	<div class="inner">
 		<ul class="features">
 
 			{% for post in site.posts %}
