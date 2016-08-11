@@ -1,32 +1,24 @@
 ---
-layout: default
+layout: generic
 ---
-
-<section id="banner">
-	<div class="inner">
+<article id="main">
+	<header>
 		<h2>{{ page.title }}</h2>
-		<p>
-			{{ page.date | date_to_string }}
-		</p>
-	</div>
-	<a href="#one" class="more scrolly">Continue to post</a>
-</section>
-<section id="one" class="wrapper style1 special">
-	<div class="inner">
-		<header class="major">
-      <div>
-        {{ content }}
-      </div>
-		</header>
-	</div>
-</section>
-<section id="cta" class="wrapper style4">
-  <div class="inner">
-    <header>
-      <h2>Enough chit-chat!</h2>
-    </header>
-    <ul class="actions vertical">
-      <a href="/blog" class="button fit special">Back to blog</a>
-    </ul>
-  </div>
-</section>
+	</header>
+	<section class="wrapper style5">
+		<div class="inner">
+			<header class="major">
+	      <div>
+	        {{ content }}
+	      </div>
+			</header>
+		</div>
+	</section>
+	<section id="cta" class="wrapper style4">
+	  <div class="inner">
+	    <ul class="actions vertical">
+	      <a href="/blog" class="button fit special">Back to blog</a>
+	    </ul>
+	  </div>
+	</section>
+</article>
