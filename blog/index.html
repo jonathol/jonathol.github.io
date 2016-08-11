@@ -1,24 +1,20 @@
 ---
-layout: default
+layout: generic
 title: Blog
 ---
-
-<section id="banner">
-	<div class="inner">
+<article id="main">
+	<header>
 		<h2>{{ page.title }}</h2>
-		<p>
-			A collection of post revealing my shenanigans.
-		</p>
-	</div>
-	<a href="#three" class="more scrolly">Let's Begin</a>
-</section>
-<section id="three" class="wrapper style3 special">
-	<div class="inner">
-		<ul class="features">
 
-			{% for post in site.posts %}
-				<li><h3>{{ post.date | date_to_string }}</h3> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+	</header>
+	<section id="three" class="wrapper style3 special">
+		<div class="inner">
+			<ul class="features">
+
+				{% for post in site.posts %}
+					<li><h3>{{ post.date | date_to_string }}</h3> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</section>
+</article>
