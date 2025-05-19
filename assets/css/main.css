@@ -52,7 +52,7 @@ nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     z-index:99;
     background-color: white;
