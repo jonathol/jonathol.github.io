@@ -1,44 +1,140 @@
----
-layout: default
-title: Jonathon Lin
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathon Lin | Software Engineer</title>
+    <link href="./assets/css/main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div id="navbar">
+            <div id="nav-title">Jonathon Lin</div>
+            <div id="nav-menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <button type="button" onclick="clickBurger()" id="nav-menu-hamburger">&#9776;</button>
+        </div>
+        <div id="nav-dropdown">
+            <a href="#about" onclick="closeDropdown()">About</a>
+            <a href="#skills" onclick="closeDropdown()">Skills</a>
+            <a href="#projects" onclick="closeDropdown()">Projects</a>
+        </div>
+    </nav>
 
-<section id="banner">
-	<div class="inner">
-		<h2>Hi there, I'm Jonathon Lin!</h2>
-		<p>
-			I am currently working as an Software Engineer at a cloud-based oil and gas software called Quorum.
-			I just graduated this May with a Masters in Computer Science from The University of Texas at Austin.
-			<br><br>
-			<a href="./blog">Find out more in my blog!</a>
-		</p>
-	</div>
-	<a href="#one" class="more scrolly">About me</a>
-</section>
-<!-- One -->
-<section id="one" class="wrapper style1 special">
-	<div class="inner">
-		<header class="major">
-			<h2>About Me</h2>
-			<br>
-			<img src="https://res.cloudinary.com/jonathol/image/upload/w_200/v1469463826/Jonathon_Lin_gvyjvr.jpg" />
-			<p>
-				I was born and raised in San Jose, California.
-				I've always loved problem solving and building small projects like Lego
-				fortresses and oragami. My hobbies include puzzles, swimming, volleyball, basketball and working out.
-				<br><br>
-        I graduated May 2015 from Carnegie Mellon University with a BS in
-				Mechanical Engineering but switched to software engineering when I discoverd my passion for programming.
-				I decided to pursue my passion by applying for App Academy where I learned Rails , Ruby, and Javascript.
-				In order to further expand my knowledge in the field of software engineering I pursued and completed a Masters
-				in computer science from The University of Texas at Austin in May 2022.
-				A	collection of projects that I've worked on can be found in
-				<a href="./projects">projects</a>.
-      </p>
-			<a href="./assets/jonathon-lin-resume.pdf" class="download" title="Download resume as PDF" download>Download resume</a>
-		</header>
-	</div>
+    <!-- Hero -->
+    <section id="hero">
+        <div>
+            <h1>Hi, I'm Jonathon Lin</h1>
+            <p>Software Engineer</p>
+            <a href="./assets/documents/Jonathon-Lin-Resume.pdf" class="download" title="Download resume as PDF" download>Download Resume</a>
+        </div>
+    </section>
 
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi there! I'm a passionate and detail-oriented software engineer with a solid background in web development and a versatile skill set.
+            I specialize in building dynamic, responsive web applications using React, JavaScript, and CSS, while also leveraging C# for back-end development.
+            My experience spans across full-stack development, where I've developed everything from sleek, user-friendly interfaces to robust server-side logic.
+            With a keen eye for clean, maintainable code and a strong emphasis on best practices, I strive to build solutions that are not only functional but also efficient and scalable.
+            Whether it's optimizing an app's performance or collaborating on cross-functional teams to bring a project to life,
+            I enjoy the challenge of problem-solving and continuously learning new technologies to stay ahead of the curve.
+            <br />
+            <br />
+            When I'm not coding, you can usually find me exploring new tech trends, tinkering with side projects, spending time with my family, and taking care of my garden.
+            <br />
+            <br />
+            Feel free to reach out – I'd love to connect!
+        </p>
+    </section>
 
-</section>
-<!-- /.banner -->
+    <!-- Skills  -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>MAUI</span>
+            <span>XAMARIN</span>
+            <span>React Native</span>
+            <span>PyTorch</span>
+            <span>Kotlin</span>
+            <span>C#</span>
+            <span>HTML</span>
+            <span>CSS</span>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <!-- Project Card -->
+            <div class="project-card">
+                <h3>Foodsy</h3>
+                <div class="img-container">
+                    <img src=".\assets\images\foodsy.png" />
+                </div>
+                <p>
+                    A full-stack web application inspired by Etsy that utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Flux architectural framework on the frontend.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/jonathol/etsy"><img src=".\assets\images\github.png" /></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Bearthday</h3>
+                <div class="img-container">
+                    <img src=".\assets\images\bearthday.png" />
+                </div>
+                <p>
+                    A React App that uses NASA's api to obtain a photo of Earth from the day of the user's last birthday. In the case that the image is missing, it'll grab a photo from the closest date after.
+                </p>
+                <div class="links">
+                    <a href="https://www.jonathonlin.com/bearthday/">live</a>
+                    <p> | </p>
+                    <a href="https://github.com/jonathol/bearthday"><img src=".\assets\images\github.png" /></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Apple Of My Eye</h3>
+                <div class="img-container">
+                    <img class="tall" src=".\assets\images\apple.png" />
+                </div>
+                <p>
+                    An android app written in kotlin that allows users to snap a picture at an unknown apple to determine the variety. 
+                    The app will also suggests recipes that can be made with that specific type of apple.
+                </p>
+                <div class="links">
+                    <a href=".\assets\documents\writeup.pdf" download="">write-up</a>
+                    <p> | </p>
+                    <a href="http://github.com/jonathol/AppleOfMyEye"><img src=".\assets\images\github.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:jonathonlin93@yahoo.com"><img src=".\assets\images\envelope.png" /></a>
+        <a href="http://github.com/jonathol"><img src=".\assets\images\github.png" /></a>
+        <a href="https://www.linkedin.com/in/jonathol/"><img src=".\assets\images\linkedin.png" /></a>
+    </footer>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
